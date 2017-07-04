@@ -2,9 +2,8 @@
    "author": "tobydavies",
    "manifest_version": 2,
    "name": "MetricSearch",
-   "permissions": [ "*://*/controller/*" ],
+   "permissions": [ "*://*/controller*" ],
    "background": {
-       "matches": ["*://*/controller/*METRIC*"],
        "scripts": [ "background.js" ],
        "persistent": true
    },
